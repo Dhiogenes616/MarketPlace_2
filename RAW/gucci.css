@@ -1,0 +1,677 @@
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url(imagens/gg.jpeg);
+  padding: 25px 25px;
+}
+
+.brand {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+    background-image: url(imagens/gg.jpeg);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.logo {
+  color: white;
+  font-family: 'Caprasimo', cursive;
+  font-size: 25px;
+}
+
+.logo:hover {
+  color: pink;
+  font-size: 29px;
+  transition: 0.8s;
+}
+
+.nav-link {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: pink;
+  font-size: 25px;
+  transition: 0.8s;
+}
+
+.trip-banner {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 20px 20px;
+  padding-bottom: 300px;
+  font-size: 70px;
+}
+
+.trip-banner_2 {
+  font-family: 'Caprasimo', cursive;
+  padding: 20px 20px;
+  padding-bottom: 10px;
+  font-size: 70px;
+}
+
+.trip-bt {
+  padding: 20px 20px;
+  border: none;
+}
+
+.bag {
+  float: right;
+}
+
+.arrivals {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 160px;
+}
+
+.new {
+  color: black;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 60px;
+}
+
+.bt-tp-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tp-bt {
+  padding: 20px 50px;
+  border: 5px solid white;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  background: black;
+  color: white;
+}
+
+.tp-bt:hover {
+  background-color: white;
+  color: black;
+  transition: 0.8s;
+}
+
+
+
+.image-container-1 {
+  display: flex;
+}
+
+.image-container-1 img {
+  flex: 1;
+  width: 0;
+  height: auto;
+}
+
+.img-con {
+  padding-top: 300px;
+}
+
+.image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: none;
+}
+
+/* Efeito hover na imagem */
+.image-container-1:hover .image-title {
+  display: block;
+}
+
+/* Opacidade da imagem durante o hover */
+.image-container-1:hover img {
+  opacity: 0.7;
+}
+
+.txt-sub {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.title-sub {
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-size: 80px;
+}
+
+.text-sub {
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+}
+
+.image-container-2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.image-container .image-card{
+  text-align: center;
+}
+
+.image-card img {
+  border: none;
+  padding: 50px 100px;
+}
+
+.image-card h2 {
+  margin-top: 10px;
+}
+
+.image-card p {
+  margin-top: 5px;
+}
+
+.name-vape {
+  color:white;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.price {
+  color:white;
+  text-align: center;
+  font-family: 'Lora', serif;
+
+}
+
+.img-bt:hover {
+  padding: 20px 20px;
+  background-color: red;
+  transition: 0.8s;
+}
+
+.man-container { 
+position: relative;
+width: 100%;
+max-width: 4000px; /* Define o tamanho máximo da imagem, ajuste conforme necessário */
+margin: 0 auto;
+padding-top: 180px;
+}
+
+.img-3 {
+display: block;
+height: 608px;
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%; /* Ajuste a altura da sobreposição conforme necessário (50% significa que metade da imagem será coberta) */
+  background-color: rgba(0, 0, 0, 0.5); /* Aqui você pode ajustar a cor escura e a transparência (aqui, usamos preto com 50% de opacidade) */
+  color: white;
+  padding: 210px;
+  box-sizing: border-box;
+}
+
+.img-tl {
+  margin: 0;
+  padding: 0;
+  font-size: 84px;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.p-tl {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+
+.tl-final {
+display: flex;
+justify-content: center;
+padding-top: 80px;
+}
+
+.gray-container {
+ background-image: url(imagens/lvdark.jpeg);   
+}
+.final-tl {
+color: white;
+font-family: 'Barlow Condensed', sans-serif;
+letter-spacing: 2px;
+font-size: 70px;
+}
+
+.p-final {
+color: #fff;
+display: flex;
+justify-content: center;
+font-family: 'Lora', serif;
+letter-spacing: 2px;
+font-size: 20px;
+}
+
+.email-final {
+display: flex;
+justify-content: center;
+text-align: center;
+color: white;
+padding-top: 30px;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 25px;
+letter-spacing: 1px;
+}
+
+.bt-final-2 {
+display: flex;
+justify-content: center;
+padding-top: 30px;
+}
+
+.btn-final {
+padding: 10px 350px;
+color: white;
+background-color: rgb(25,30, 30);
+border: 2px solid white;
+font-family: 'Barlow Condensed', sans-serif;
+letter-spacing: 2px;
+}
+
+.btn-final:hover {
+background-color: black;
+color: white;
+padding: 15px 400px;
+transition: 0.8s;
+}
+
+.bt-final-3 {
+display: flex;
+justify-content: center;
+padding: 10px 80px;
+}
+
+.btn-final-1 {
+padding: 10px 315px;
+color: white;
+background-color: rgb(25,30, 30);
+border: 2px solid white;
+font-family: 'Barlow Condensed', sans-serif;
+letter-spacing: 2px;
+font-weight: bold;
+}
+
+.btn-final-1:hover {
+padding: 15px 375px;
+color: white;
+background-color: black;
+transition: 0.8s;
+}
+
+.gray-container-2 {
+background: rgb(25,30, 30);
+}
+
+.navbar-final {
+padding: 50px 50px;
+background-color: #333;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+bottom: 0;
+left: 0;
+width: 100%;
+}
+
+.navbar-final a {
+color: #fff;
+text-decoration: none;
+margin: 0 15px;
+}
+
+.navbar-final a:hover {
+color: #f2f2f2;
+}
+
+.chat-button {
+position: fixed;
+bottom: 50px;
+float: right;
+}
+
+.tl-primal {
+display: flex;
+justify-content: center;
+padding: 20px 20px;
+padding-top: 150px;
+}
+
+.primal-tl {
+color: white;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 70px;
+letter-spacing: 2px;
+}
+
+
+/* CSS for responsiveness */
+@media screen and (max-width: 767px) {
+/* Hide more images */
+.image-container img,
+.img-3,
+.image-container-1 img {
+    display: none;
+}
+
+/* Center elements */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Center nav-bar items */
+#nav-general {
+    justify-content: center;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.navbar-nav li {
+    margin: 5px;
+}
+.navbar-toggler {
+    order: 1;
+    margin-right: 0;
+}
+.navbar-collapse {
+    order: 3;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Remove texts from the sub-bar */
+.image-container-1 .image-title,
+.txt-sub,
+.txt-sub-2,
+.final-tl,
+.p-tl,
+.creator,
+.p-final,
+.email-final {
+    display: none;
+}
+
+/* Minimize titles */
+.title-sub,
+.final-tl,
+.img-tl {
+    font-size: 18px; /* Adjust font size */
+}
+
+/* Reduce button sizes */
+.tp-bt,
+.btn-final,
+.btn-final-1 {
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+/* Adjust other elements as needed */
+.arrivals,
+.bt-tp-container,
+.image-card,
+.man-container,
+.gray-container-2,
+.navbar-final,
+.chat-button {
+    text-align: center;
+    margin: 10px auto; /* Center and provide space */
+    max-width: 90%; /* Limit width for better mobile layout */
+}
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.col {
+flex-basis: calc(50% - 20px);
+margin-bottom: 20px;
+}
+
+/* Estilos dos cards */
+.card {
+background-color: rgba(0, 0, 0, 0.3);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+}
+
+.card img {
+width: 100%;
+height: auto;
+}
+
+.card-info {
+padding: 15px;
+}
+
+.card-info h3 {
+margin-bottom: 10px;
+font-size: 35px;
+}
+
+.card-info p {
+margin-bottom: 5px;
+font-size: 1em;
+color: white;
+font-family: 'Lora', serif;
+}
+
+.nome_p{
+color: white;
+font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Estilos adicionais para as estrelas de classificação */
+.rating {
+color: #ffd700; /* Cor das estrelas preenchidas */
+font-size: 24px; /* Tamanho das estrelas */
+}
+
+/* Estilos para a página de detalhes do produto */
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.product-details {
+display: flex;
+align-items: center;
+}
+
+.product-image {
+flex: 1;
+margin-right: 20px;
+}
+
+.product-image img {
+width: 100%;
+height: auto;
+}
+
+.product-info {
+flex: 1;
+}
+
+.product-info h2 {
+font-size: 54px;
+margin-bottom: 10px;
+color: white;
+font-family: 'Barlow Condensed', sans-serif;
+}
+
+.product-info p {
+font-size: 16px;
+margin-bottom: 8px;
+color: white;
+font-family: 'Lora', serif;
+
+}
+
+.buy-btn,
+.add-to-cart-btn {
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.buy-btn {
+background-color:rgb(218, 165, 32); /* Dourado mais escuro */
+; /* Cor do botão 'Comprar' */
+color: white;
+border-radius: 10px;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 20px;
+}
+
+.buy-btn:hover{
+background-color: rgb(192, 192, 192);
+color: black;
+transition: 0.6s;
+}
+.add-to-cart-btn {
+background-color:rgb(218, 165, 32); /* Dourado mais escuro */
+; /* Cor do botão 'Adicionar ao Carrinho' */
+color: white;
+border-radius: 10px;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 20px;
+}
+
+.add-to-cart-btn:hover{
+background-color: red;
+color: black;
+transition: 0.6s;
+}
+
+#primal-color {
+color: rgb(218, 165, 32); /* Dourado mais escuro */
+
+}
+
+#price-id {
+color: red;
+}
+
+#p-vap {
+font-size: 20px;
+}
+
+/* Estilos adicionais para a página de detalhes do produto */
+
+.product-color {
+width: 20px; /* Largura da representação da cor */
+height: 20px; /* Altura da representação da cor */
+border-radius: 50%; /* Borda circular */
+background-color: gray; /* Cor de exemplo (substitua pelo código de cor do produto) */
+margin-bottom: 10px;
+}
+
+/* Estilos para os quadrados com números */
+
+.container2 {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10vh; /* Altura da tela inteira */
+}
+
+.square {
+width: 50px; /* Largura do quadrado */
+height: 50px; /* Altura do quadrado */
+margin: 10px; /* Espaço entre os quadrados */
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(218, 165, 32); /* Cor de fundo do quadrado */
+color: black; /* Cor do número */
+font-size: 20px; /* Tamanho do número */
+font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.square:hover{
+background-color: white;
+color: black;
+transition: 0.7s;
+}
+
